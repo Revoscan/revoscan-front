@@ -8,14 +8,18 @@ import Section from "@/components/section";
 import InscriptionForm from "@/components/page/home/inscriptionForm";
 import CarouselMedecins from "@/components/page/home/carouselMedecins";
 import {ButtonLink} from "@/components/buttonLink";
+import {useTranslations} from "next-intl";
 
 export default function Home() {
+  const t = useTranslations('HomePage');
   return (
       <>
           <Section bgSrc='/1.webp'
                    className="flex flex-col items-center justify-center p-8 min-h-screen relative mb-8">
               <h1 className="inline-block max-w-xl text-center justify-center tracking-tight inline text-[2.3rem] lg:text-5xl z-1">
-                  Prévenir pour <span className='font-semibold'>un avenir meilleur.</span>
+                  {t.rich('title', {
+                    semibold: (chunks) =>  <><br/><span className='font-semibold'>{chunks}</span></>
+                  })}
               </h1>
           </Section>
 
@@ -62,7 +66,7 @@ export default function Home() {
                   <p className='text-2xl'><span className='font-semibold'>Durée</span><br/>50 minutes</p>
               </div>
 
-              <ButtonLink href='/#book-a-scan' variant='transparent'>Réserver un scan</ButtonLink>
+              <ButtonLink href='/public#book-a-scan' variant='transparent'>Réserver un scan</ButtonLink>
 
               <Image src="/1.webp" fill={true} alt=""
                      className='absolute w-full h-full object-cover mask-y-from-70% mask-y-to-90% opacity-45'/>

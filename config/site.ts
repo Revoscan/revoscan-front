@@ -3,6 +3,7 @@ export type SiteConfig = typeof siteConfig;
 export const siteConfig = {
   name: "Revoscan",
   description: "Prévenir pour un avenir meilleur.",
+  locales: ["fr", "en"],
   navItems: [
     {
       label: "EXPERTISE",

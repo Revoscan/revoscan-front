@@ -275,7 +275,7 @@ export default function ProtocolePage() {
                     <p className='text-2xl'><span className='font-semibold'>Durée</span><br/>50 minutes</p>
                 </div>
 
-                <ButtonLink href='/#book-a-scan' variant='transparent'>Réserver un scan</ButtonLink>
+                <ButtonLink href='/public#book-a-scan' variant='transparent'>Réserver un scan</ButtonLink>
 
                 <Image src="/1.webp" fill={true} alt=""
                        className='absolute w-full h-full object-cover mask-y-from-70% mask-y-to-90% opacity-45'/>

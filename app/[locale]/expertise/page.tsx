@@ -191,7 +191,7 @@ export default function ExpertisePage() {
                         <p className='w-full md:w-1/2 md:ml-36'>Recevez un bilan personnalisé, enrichi par des visualisations
                             intuitives et un score Revoscan exclusif. Une synthèse claire de ce que votre corps vous révèle,
                             pour mieux décider, anticiper et agir.</p>
-                        <ButtonLink variant='transparent' href='/' className='text-md md:ml-36 mt-8'>Consulter nos rapports</ButtonLink>
+                        <ButtonLink variant='transparent' href='/public' className='text-md md:ml-36 mt-8'>Consulter nos rapports</ButtonLink>
 
                     </div>
                 <Image src="/Bilan-1.webp" width={500} height={500} alt=""
