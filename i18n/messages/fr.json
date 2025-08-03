@@ -1,5 +1,17 @@
 {
   "HomePage": {
-    "title": "Prévenir pour <semibold>un avenir meilleur.</semibold>"
+    "title": "Prévenir pour <semibold>un avenir meilleur.</semibold>",
+    "ia-section-title": "Une technologie IRM <semibold>à la pointe de l'innovation.</semibold>",
+    "ia-section-p1": "<semibold>Sans</semibold> Radiation",
+    "ia-section-p2": "<semibold>6000 to 7000</semibold> images",
+    "book-a-scan-section-title": "Planifiez votre <semibold>rendez-vous avec notre concierge</semibold> afin d’en savoir plus.",
+    "price-section-title": "Réservez votre <semibold>examen Revoscan</semibold>",
+    "price-section-price-title": "Prix de l'examen",
+    "price-section-price": "4 500 CHF",
+    "price-section-duration-title": "Durée",
+    "price-section-duration": "50 minutes",
+    "price-section-call-to-action": "Réserver un scan",
+    "carousel-section-title": "Associée à l’expertise <semibold>de nos médecins renommés.</semibold>",
+    "ai-power-section-title": "Et à la puissance de <semibold>l'intelligence artificielle.</semibold>"
   }
 }

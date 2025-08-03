@@ -1,5 +1,17 @@
 {
   "HomePage": {
-    "title": "Prevention for <semibold>a better future.</semibold>"
+    "title": "Prevention for <semibold>a better future.</semibold>",
+    "ia-section-title": "Cutting-Edge <semibold>MRI Technology.</semibold>",
+    "ia-section-p1": "<semibold>Radiation-Free</semibold>",
+    "ia-section-p2": "<semibold>6,000 to 7,000</semibold> images",
+    "book-a-scan-section-title": "Planifiez votre <semibold>rendez-vous avec notre concierge</semibold> afin d’en savoir plus.",
+    "price-section-title": "Book your <semibold>Revoscan examination</semibold>",
+    "price-section-price-title": "Exam price",
+    "price-section-price": "CHF 4,500",
+    "price-section-duration-title": "Duration",
+    "price-section-duration": "50 minutes",
+    "price-section-call-to-action": "Book an appointment",
+    "carousel-section-title": "Combined with the expertise <semibold>of our renowned doctors.</semibold>",
+    "ai-power-section-title": "And powered by the strength of <semibold>artificial intelligence.</semibold>"
   }
 }
