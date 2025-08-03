@@ -19,7 +19,7 @@ export default function LanguageSwitcher() {
                     <Link
                         key={lng}
                         href={newPath}
-                        className="px-3 py-1 border rounded hover:bg-gray-200"
+                        className="px-3 py-1 border rounded hover:bg-gray-200 hover:text-black"
                     >
                         {lng.toUpperCase()}
                     </Link>

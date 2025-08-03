@@ -31,7 +31,7 @@ export default function GridExplorationComplete() {
     return (
         <section className="py-12 px-6 md:px-16 relative">
             <div className="max-w-7xl mx-auto">
-                <h2 className="text-center text-2xl md:text-3xl font-semibold mb-10 z-1">
+                <h2 className="text-center text-2xl md:text-4xl mb-10 z-1">
                     Une exploration complète du corps.
                 </h2>
 
@@ -80,17 +80,16 @@ export default function GridExplorationComplete() {
 
 const ExplorationCard = ({ title, description, icon }: {title: string, description: string, icon: string}) => {
     return (
-        <div className="p-4 rounded-lg border border-white/10 bg-white/5 backdrop-blur-md shadow-inner z-1">
-            <div className='flex mb-4 pb-4 border-b-1 border-b-gray-300 items-center'>
+        <div className="px-8 py-5 rounded-lg border border-white/10 bg-white/5 backdrop-blur-md shadow-inner z-1">
+            <div className='flex gap-6 mb-4 pb-4 border-b border-gray-500 items-center'>
                 <Image
                     src={icon}
                     alt={title}
                     width={50} height={50}
-                    className="mr-4"
                 />
-                <h3 className="text-lg font-semibold mb-2">{title}</h3>
+                <h3 className="text-xl font-medium mb-2">{title}</h3>
             </div>
-            <p className="text-sm text-gray-300">
+            <p className="text-sm leading-[120%] tracking-normal text-gray-300">
                 {description}
             </p>
         </div>

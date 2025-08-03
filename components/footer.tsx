@@ -12,13 +12,13 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto flex flex-col items-center md:flex-row justify-between gap-6">
                 {/* Logo + Réseaux sociaux */}
                 <div className="flex flex-col items-center md:items-start gap-4">
-                    <a href="/" aria-label="Accueil Revoscan">
+                    <a href="/" aria-label="Accueil Revoscan" className='flex items-center justify-center w-fit'>
                         <Image
                             src="/logo-revoscan.svg"
                             width={150}
-                                height={50}
+                            height={50}
                             alt="Revoscan"
-                            className="h-6 md:h-8"
+                            className="h-6 md:h-8 self-center justify-self-center"
                         />
                     </a>
                     <nav aria-label="Réseaux sociaux" className="flex gap-4">

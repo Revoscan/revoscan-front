@@ -51,7 +51,9 @@ export default function CarouselMedecins() {
                                 aria-label={`${medecin.nom}, ${medecin.specialite}`}
                             >
                                 <div
-                                    className="relative rounded-xl border border-white/10 bg-white/5 backdrop-blur-md flex flex-col">
+                                    className="relative rounded-xl flex flex-col border border-white/5 bg-gradient-to-b from-[rgba(0,0,0,0)] to-[#021810]
+    backdrop-blur-[10px]
+    shadow-[inset_0_0_50px_rgba(255,255,255,0.05),inset_0_0_1px_rgba(255,255,255,0.45),inset_1px_1px_3px_rgba(255,255,255,0.20)]">
                                     <Image
                                         src={medecin.image}
                                         alt={`Photo de ${medecin.nom}`}

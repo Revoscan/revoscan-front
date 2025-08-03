@@ -36,8 +36,9 @@ export default function Navbar() {
 
             <NavbarContent
                 className="hidden sm:flex basis-1/5 self-end gap-4 items-center justify-center"
+                justify='center'
             >
-                <ul className="hidden lg:flex gap-8 justify-start">
+                <ul className="hidden lg:flex gap-16 justify-start">
                     {siteConfig.navItems.map((item) => (
                         <NavbarItem key={item.href}>
                             <NextLink
@@ -53,6 +54,12 @@ export default function Navbar() {
                         </NavbarItem>
                     ))}
                 </ul>
+            </NavbarContent>
+
+            <NavbarContent
+                className="hidden sm:flex basis-1/5 self-end gap-4 items-center justify-center"
+                justify='end'
+            >
                 <ButtonLink variant='black' href='/#book-a-scan' className='ml-4 text-sm'>PRENDRE RENDEZ-VOUS</ButtonLink>
 
                 <LocaleSwitcherSelect defaultValue={'en'} items={locales} label='' />
@@ -71,7 +78,8 @@ export default function Navbar() {
                             </Link>
                         </NavbarMenuItem>
                     ))}
-                    <ButtonLink variant='transparent' href='/#book-a-scan' className='text-sm'>Réserver un scan</ButtonLink>
+                    <ButtonLink variant='transparent' href='/#book-a-scan' className='text-sm uppercase'>Prendre rendez-vous</ButtonLink>
+                    <LocaleSwitcherSelect defaultValue={'en'} items={locales} label='' />
                 </div>
             </NavbarMenu>
         </HeroUINavbar>

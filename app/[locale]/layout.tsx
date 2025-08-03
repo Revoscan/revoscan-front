@@ -57,10 +57,10 @@ export default async function RootLayout({
               {children}
 
               <section className="flex flex-col items-center justify-center py-8 min-h-screen mb-8 relative">
-                <h2 className="inline-block max-w-xl text-center justify-center tracking-tight inline text-[2.3rem] lg:text-5xl z-1">
-                  La détéction précoce <span className='font-semibold'>sauve des vies.</span>
+                <h2 className="text-center text-[2.3rem] lg:text-5xl z-1  leading-[110%] tracking-normal">
+                  La détéction précoce <span className='font-semibold text-white'>sauve des vies.</span>
                 </h2>
-                <ButtonLink variant='transparent' href='/#book-a-scan' className='text-sm mt-8'>Réserver un scan</ButtonLink>
+                <ButtonLink variant='transparent' href='/#book-a-scan' className='text-sm mt-8 uppercase'>Réserver un scan</ButtonLink>
 
                 <Image src="/sunset.webp" alt="" fill={true}
                        className='absolute w-full h-full object-cover mask-y-from-70% mask-y-to-90%'/>
