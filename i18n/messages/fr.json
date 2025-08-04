@@ -1,17 +1,168 @@
 {
   "HomePage": {
-    "title": "Prévenir pour <semibold>un avenir meilleur.</semibold>",
-    "ia-section-title": "Une technologie IRM <semibold>à la pointe de l'innovation.</semibold>",
-    "ia-section-p1": "<semibold>Sans</semibold> Radiation",
-    "ia-section-p2": "<semibold>6000 to 7000</semibold> images",
-    "book-a-scan-section-title": "Planifiez votre <semibold>rendez-vous avec notre concierge</semibold> afin d’en savoir plus.",
-    "price-section-title": "Réservez votre <semibold>examen Revoscan</semibold>",
+    "title": "Prévenir pour <blanc>un avenir meilleur.</blanc>",
+    "ia-section-title": "Une technologie IRM <blanc>à la pointe de l'innovation.</blanc>",
+    "ia-section-p1": "<blanc>Sans</blanc> Radiation",
+    "ia-section-p2": "<blanc>6000 to 7000</blanc> images",
+    "book-a-scan-section-title": "Planifiez votre <blanc>rendez-vous avec notre concierge</blanc> afin d’en savoir plus.",
+    "price-section-title": "Réservez votre <blanc>examen Revoscan</blanc>",
     "price-section-price-title": "Prix de l'examen",
     "price-section-price": "4 500 CHF",
     "price-section-duration-title": "Durée",
     "price-section-duration": "50 minutes",
     "price-section-call-to-action": "Prendre rendez-vous",
-    "carousel-section-title": "Associée à l’expertise <semibold>de nos médecins renommés.</semibold>",
-    "ai-power-section-title": "Et à la puissance de <semibold>l'intelligence artificielle.</semibold>"
+    "carousel-section-title": "Associée à l’expertise <blanc>de nos médecins renommés.</blanc>",
+    "ai-power-section-title": "Et à la puissance de <blanc>l'intelligence artificielle.</blanc>"
+  },
+  "ExpertisePage": {
+    "title": "Doté d’une précision inégalée.",
+    "subtitle": "<blanc>Notre technologie d’imagerie avancée </blanc>révèle ce que le corps ne dit pas encore.",
+    "detection-section-title": "<blanc>Nous détectons l’invisible, </blanc>avant qu’il ne soit visible.",
+    "detection-section-p1": "<semibold>Sans</semibold> Radiation",
+    "detection-section-p2": "<semibold>6000 to 7000</semibold> images",
+    "detection-section-p3": "<semibold>Assisté </semibold> par IA",
+    "imagerie-title": "IRM du Corps Entier",
+    "imagerie-p1": "<blanc>L’IRM la plus complète à ce jour,</blanc> couvrant tous les organes majeurs et vitaux du corps ainsi que la colonne vertébrale.",
+    "imagerie-p2": "<blanc>La technologie IRM</blanc> a révolutionné la compréhension et la détection des pathologies au fil des ans en fournissant <blanc>des images détaillées et non invasives des structures internes du corps.</blanc> Cette méthode d'imagerie a considérablement fait progresser le diagnostic médical, permettant <blanc>une meilleure précision et une détection précoce de maladies diverses.</blanc>",
+    "imagerie-li1": "Détection de tumeurs et de cancers dans toutes les régions du thorax, de l'abdomen et du bassin",
+    "imagerie-li2": "Les anévrismes",
+    "imagerie-li3": "Tumeurs du cerveau et du cou (langue, larynx, SCC...)",
+    "imagerie-li4": "Cancers et affections bénignes telles que kystes, hématomes, abcès...",
+    "imagerie-li5": "Un examen ciblé de la région pelvienne couvrant les spécificités des cancers de la prostate, du col de l'utérus, de l'utérus et de l'ovaire.",
+    "whole-body-section-title": "Une exploration complète du corps.",
+    "whole-body-brain-title": "Cerveau",
+    "whole-body-brain-description": "Détection des tumeurs, AVC, anévrismes, kystes, hématomes et ischémies des petits vaisseaux.",
+
+    "whole-body-head-neck-title": "Cervico–faciale",
+    "whole-body-head-neck-description": "Analyse des sinus, glandes, ganglions, langue, parotide, SCC et tumeurs du cou et du larynx.",
+
+    "whole-body-bone-marrow-title": "Moelle osseuse",
+    "whole-body-bone-marrow-description": "Détection d’anomalies, tumeurs, métastases et affections hématologiques médullaires.",
+
+    "whole-body-spine-title": "Rachis",
+    "whole-body-spine-description": "Visualisation des hernies discales, dégénérescence, lésions vertébrales et spinale.",
+
+    "whole-body-cardiovascular-title": "Cardio Vasculaire",
+    "whole-body-cardiovascular-description": "Évaluation de l’aorte, détection d’anévrismes et anomalies vasculaires cérébrales.",
+
+    "whole-body-lungs-title": "Poumons",
+    "whole-body-lungs-description": "Visualisation des masses pulmonaires et tumeurs médiastinales de plus de 1,5 cm.",
+
+    "whole-body-kidneys-title": "Reins",
+    "whole-body-kidneys-description": "Analyse des reins pour kystes, tumeurs, masse solides et anomalies structurelles.",
+
+    "whole-body-urinary-title": "Système Urinaire",
+    "whole-body-urinary-description": "Détection des tumeurs, kystes, malformations et anomalies urinaires ou vésicales.",
+
+    "whole-body-pelvis-breasts-title": "Pelvis & Seins",
+    "whole-body-pelvis-breasts-description": "Dépistage de masses suspectes, kystes, lésions bénignes ou malignes visibles à l’IRM.",
+
+    "whole-body-prostate-title": "Prostate",
+    "whole-body-prostate-description": "Analyse ciblée de la prostate pour détecter les tumeurs, même de petite taille.",
+
+    "whole-body-limbs-title": "Membres",
+    "whole-body-limbs-description": "Visualisation de masses, anomalies osseuses, tumeurs et pathologies musculo-squelettiques.",
+
+    "whole-body-muscles-title": "Muscles",
+    "whole-body-muscles-description": "Détection des lésions, tumeurs, anomalies musculaires ou infiltrations diffuses.",
+
+    "whole-body-metabolism-title": "Métabolisme",
+    "whole-body-metabolism-description": "Analyse de la stéatose hépatique, surcharge en fer (Hémochromatose) et anomalies diffuses.",
+
+    "ai-section-title": "L’intelligence artificielle au cœur <blanc>de l’analyse médicale prédictive Revoscan.</blanc>",
+
+    "ai-predictive-detection-title": "Détection prédictive par IA",
+    "ai-predictive-detection-description": "Notre IA identifie les signaux faibles avant même l’apparition de symptômes, permettant une détection ultra-précoce des anomalies les plus subtiles.",
+
+    "ai-advanced-analysis-title": "Analyse avancée",
+    "ai-advanced-analysis-description-p1": "Grâce à des algorithmes avancés, l’IA analyse en profondeur les données issues de l’IRM corps entier pour modéliser le fonctionnement des organes et identifier les déviations minimes qui pourraient annoncer l’apparition future de pathologies.",
+    "ai-advanced-analysis-description-p2": "Cette capacité de projection dans le temps, unique en son genre, permet notamment de détecter des signaux précoces de maladies neurodégénératives telles qu’Alzheimer, bien avant les premiers symptômes.",
+
+    "ai-interpretation-title": "Interprétation",
+    "ai-interpretation-description": "Des millions de données sont comparées à notre base de référence pour affiner chaque lecture et augmenter la fiabilité du diagnostic.\n\nL’intelligence artificielle devient ainsi un outil d’aide à la décision stratégique, permettant d’orienter les recommandations cliniques avec plus de précision, de personnalisation et de pertinence.",
+
+    "ai-validated-experts-title": "Validé par nos experts",
+    "ai-validated-experts-description": "Chaque prédiction est validée, nuancée et contextualisée par nos experts pour offrir à chaque patient le meilleur de la science, au service de sa santé.",
+
+    "ai-swiss-quality-title": "Qualité Suisse",
+    "ai-swiss-quality-description": "Notre technologie repose sur des modèles validés cliniquement et certifiés selon les standards médicaux suisses.",
+    "ai-swiss-quality-cta": "VOIR NOS CERTIFICATIONS",
+
+    "commitee-section-title": "Votre santé guidée <blanc>par un comité scientifique.</blanc>",
+    "understanding-section-title": "Une nouvelle lecture <blanc>de votre corps.</blanc>",
+    "understanding-section-description": "Recevez un bilan personnalisé, enrichi par des visualisations intuitives et un score Revoscan exclusif. Une synthèse claire de ce que votre corps vous révèle, pour mieux décider, anticiper et agir.",
+    "understanding-section-cta": "DÉCOUVRIR LE RAPPORT"
+  },
+  "VisionPage": {
+    "title": "Vers une nouvelle <blanc>vision de la santé</blanc>",
+    "subtitle": "Nous façonnons dès aujourd’hui la médecine de demain, sans compromis, en plaçant les soins préventifs au cœur d’une expérience de luxe inédite.",
+
+    "revoscan-title": "Chez <blanc>Revoscan</blanc>",
+    "revoscan-description": "Chaque décision repose sur la rigueur scientifique et une attention profondément humaine. Notre vision audacieuse : réinventer l’imagerie médicale par une approche holistique, ultra-précise et résolument tournée vers l’avenir de votre santé.",
+
+    "commitment-title": "Animés par l’<blanc>exigence d’excellence</blanc>",
+    "commitment-description": "Nous unissons un savoir-faire clinique de renommée mondiale, une technologie d’imagerie avancée et un service personnalisé d’exception. Nous croyons qu’une détection précoce, associée à un diagnostic d’une précision inégalée, est la clé d’une prévention efficace et d’une prise en charge éclairée.\n\nGrâce à l’analyse assistée par l’IA, nous détectons les signaux faibles avant l’apparition des symptômes, pour agir tôt, limiter les risques de maladies chroniques et bâtir un capital santé durable.",
+
+    "advanced-imaging-description": "Nos services d’imagerie avancée offrent une évaluation globale et personnalisée de votre état de santé, vous donnant les moyens de comprendre, d’anticiper et de maîtriser votre parcours médical.\n\nNous redéfinissons votre rapport au corps, à la médecine et au temps : pour nous, la santé n’est pas simplement l’absence de maladie, mais un potentiel à révéler et à cultiver.",
+
+    "new-standard-description": "Ensemble, nous établissons un nouveau standard de bien-être, pour une médecine proactive au service de votre longévité.",
+
+    "cta-button": "NOTRE EXPERTISE"
+  },
+  "ProtocolePage": {
+    "title": "Réinventons la santé, <blanc>pour sublimer chaque instant.</blanc>",
+
+    "step1-title": "Prise de rendez-vous",
+    "step1-description": "Réservez votre examen Revoscan par téléphone ou via notre formulaire dans la page contact.",
+
+    "step2-title": "Formulaire santé",
+    "step2-description": "Complétez notre questionnaire de santé confidentiel pour adapter l’examen à votre profil médical.",
+
+    "step3-title": "Préparation à l’examen",
+    "step3-description": "Il est recommandé de ne pas manger dans les 4 heures précédant l’IRM et de retirer tout objet métallique.",
+
+    "step4-title": "L’examen Revoscan",
+    "step4-description": "L’IRM est non invasif, indolore et réalisé dans un appareil ouvert, conçu pour votre confort.",
+
+    "step5-title": "Analyse multispecialiste",
+    "step5-description": "Chaque région scannée est analysée par un radiologue expert selon son domaine d’expertise.",
+
+    "step6-title": "Compte-rendu personnalisé",
+    "step6-description": "Vous recevez un rapport complet sous 7 à 10 jours, accompagné de recommandations ciblées.",
+
+    "analysis-title": "Analyse Revoscan",
+    "analysis-description": "Un tableau clair qui note chaque région de votre corps selon les anomalies détectées par l’IRM.",
+
+    "summary-title": "Synthèse personnalisée",
+    "summary-description": "Un bilan validé par notre comité médical, reflétant l’avis croisé de spécialistes sur votre santé.",
+
+    "recommendations-title": "Recommandations médicales",
+    "recommendations-description": "Des conseils précis sur les suites à donner : spécialistes à consulter, examens ou suivis à prévoir.",
+
+    "details-title": "Détails & explications",
+    "details-description": "Chaque anomalie est illustrée et expliquée, avec les images d’IRM à l’appui pour mieux comprendre.",
+
+    "price-section-title": "Book your <blanc>Revoscan examination</blanc>",
+    "price-section-price-title": "Exam price",
+    "price-section-price": "CHF 4,500",
+    "price-section-duration-title": "Duration",
+    "price-section-duration": "50 minutes",
+    "price-section-call-to-action": "Book an appointment",
+
+    "faq-title": "Les questions <blanc>fréquentes</blanc>",
+    "faq-tab-1-title": "Avant l’examen",
+    "faq-tab-2-title": "A la clinique",
+    "faq-tab-3-title": "Pendant l’examen",
+    "faq-tab-4-title": "Après l’examen"
+  },
+  "ContactPage": {
+    "title": "Besoin de <blanc>nous contacter ?</blanc>"
+  },
+  "Navigation": {
+    "expertise": "EXPERTISE",
+    "vision": "VISION",
+    "protocol": "PROTOCOLE",
+    "contact": "CONTACT",
+    "cta": "PRENDRE RENDEZ-VOUS"
   }
 }

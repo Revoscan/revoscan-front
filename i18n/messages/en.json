@@ -1,17 +1,149 @@
 {
   "HomePage": {
-    "title": "Prevention for <semibold>a better future.</semibold>",
-    "ia-section-title": "Cutting-Edge <semibold>MRI Technology.</semibold>",
-    "ia-section-p1": "<semibold>Radiation-Free</semibold>",
-    "ia-section-p2": "<semibold>6,000 to 7,000</semibold> images",
-    "book-a-scan-section-title": "Planifiez votre <semibold>rendez-vous avec notre concierge</semibold> afin d’en savoir plus.",
-    "price-section-title": "Book your <semibold>Revoscan examination</semibold>",
+    "title": "Prevention for <blanc>a better future.</blanc>",
+    "ia-section-title": "Cutting-Edge <blanc>MRI Technology.</blanc>",
+    "ia-section-p1": "<blanc>Radiation-Free</blanc>",
+    "ia-section-p2": "<blanc>6,000 to 7,000</blanc> images",
+    "book-a-scan-section-title": "Book your <blanc>appointment with our concierge</blanc> to find out more.",
+    "price-section-title": "Book your <blanc>Revoscan examination</blanc>",
     "price-section-price-title": "Exam price",
     "price-section-price": "CHF 4,500",
     "price-section-duration-title": "Duration",
     "price-section-duration": "50 minutes",
     "price-section-call-to-action": "Book an appointment",
-    "carousel-section-title": "Combined with the expertise <semibold>of our renowned doctors.</semibold>",
-    "ai-power-section-title": "And powered by the strength of <semibold>artificial intelligence.</semibold>"
+    "carousel-section-title": "Combined with the expertise <blanc>of our renowned doctors.</blanc>",
+    "ai-power-section-title": "And powered by the strength of <blanc>artificial intelligence.</blanc>"
+  },
+  "ExpertisePage": {
+    "title": "Engineered with unrivalled precision.",
+    "subtitle": "<blanc>Our advanced imaging technology </blanc>reveals what the body has yet to say.",
+    "detection-section-title": "<blanc>We detect the invisible, </blanc>before it becomes visible.",
+    "detection-section-p1": "Radiation-<semibold>Free</semibold>",
+    "detection-section-p2": "<semibold>6,000 to 7,000</semibold> images",
+    "detection-section-p3": "<semibold>AI-</semibold>Assisted",
+    "imagerie-title": "Whole Body MRI",
+    "imagerie-p1": "<blanc>The most comprehensive MRI to date,</blanc> covering all major and vital organs, as well as the entire spine.",
+    "imagerie-p2": "<blanc>MRI technology</blanc> has revolutionised our understanding and detection of disease over the years, <blanc>offering detailed and non-invasive images of the body’s internal structures.</blanc> This imaging method has<blanc> and the early detection of a wide range of conditions.</blanc>",
+    "imagerie-li1": "Detection of tumours and cancers across the chest, abdomen, and pelvis",
+    "imagerie-li2": "Aneurysms",
+    "imagerie-li3": "Brain and neck tumours (including tongue, larynx, SCC...)",
+    "imagerie-li4": "Cancers and benign conditions such as cysts, haematomas, abscesses, and more",
+    "imagerie-li5": "A targeted examination of the pelvic region, addressing specific cancers of the prostate, cervix, uterus, and ovaries",
+    "whole-body-section-title": "A comprehensive Whole-Body scan.",
+    "whole-body-brain-title": "Brain",
+    "whole-body-brain-description": "Detection of tumours, strokes, aneurysms, cysts, haematomas, and small vessel ischaemia.",
+    "whole-body-head-neck-title": "Head & neck",
+    "whole-body-head-neck-description": "Analysis of sinuses, glands, lymph nodes, tongue, parotid gland, SCC, and tumours of the neck and larynx.",
+    "whole-body-bone-marrow-title": "Bone Marrow",
+    "whole-body-bone-marrow-description": "Detection of abnormalities, tumours, metastases, and haematological marrow disorders.",
+    "whole-body-spine-title": "Spine",
+    "whole-body-spine-description": "Visualisation of disc herniation, degeneration, vertebral and spinal lesions.",
+    "whole-body-cardiovascular-title": "Cardiovascular",
+    "whole-body-cardiovascular-description": "Evaluation of the aorta, detection of aneurysms and cerebral vascular anomalies.",
+    "whole-body-lungs-title": "Lungs",
+    "whole-body-lungs-description": "Visualisation of pulmonary masses and mediastinal tumours larger than 1.5 cm.",
+    "whole-body-kidneys-title": "Kidneys",
+    "whole-body-kidneys-description": "Renal analysis for cysts, tumours, solid masses, and structural abnormalities.",
+    "whole-body-urinary-title": "Urinary System",
+    "whole-body-urinary-description": "Detection of tumours, cysts, malformations, and urinary or bladder anomalies.",
+    "whole-body-pelvis-breasts-title": "Pelvis & Breasts",
+    "whole-body-pelvis-breasts-description": "Screening for suspicious masses, cysts, and benign or malignant lesions detectable via MRI.",
+    "whole-body-prostate-title": "Prostate",
+    "whole-body-prostate-description": "Targeted prostate analysis for the detection of tumours, even at early stages.",
+    "whole-body-limbs-title": "Limbs",
+    "whole-body-limbs-description": "Visualisation of masses, bone anomalies, tumours, and musculoskeletal disorders.",
+    "whole-body-muscles-title": "Muscles",
+    "whole-body-muscles-description": "Detection of lesions, tumours, muscular anomalies, or diffuse infiltrations.",
+    "whole-body-metabolism-title": "Metabolism",
+    "whole-body-metabolism-description": "Analysis of hepatic steatosis, iron overload (haemochromatosis), and diffuse metabolic abnormalities.",
+    "ai-section-title": "Artificial intelligence at the heart <blanc>of Revoscan’s predictive medical analysis.</blanc>",
+    "ai-predictive-detection-title": "AI-Powered Predictive Detection",
+    "ai-predictive-detection-description": "Our AI identifies subtle signals before symptoms even appear, enabling ultra-early detection of the most nuanced abnormalities.",
+    "ai-advanced-analysis-title": "Advanced Analysis",
+    "ai-advanced-analysis-description-p1": "Using sophisticated algorithms, our AI conducts an in-depth analysis of whole-body MRI data to model organ function and identify the slightest deviations that may signal the early onset of disease.",
+    "ai-advanced-analysis-description-p2": "This unique ability to project into the future enables early detection of conditions such as neurodegenerative diseases – including Alzheimer’s – well before the first symptoms emerge.",
+    "ai-interpretation-title": "Interpretation",
+    "ai-interpretation-description": "Millions of data points are compared against our reference database to refine each reading and enhance diagnostic accuracy.\n\nArtificial intelligence thus becomes a strategic decision-making tool, guiding clinical recommendations with greater precision, personalisation, and relevance.",
+    "ai-validated-experts-title": "Validated by our experts",
+    "ai-validated-experts-description": "Every prediction is reviewed, contextualised, and validated by our specialists, offering each patient the best of science in service of their health.",
+    "ai-swiss-quality-title": "Swiss Quality",
+    "ai-swiss-quality-description": "Our technology is based on clinically validated models, certified to meet Swiss medical standards.",
+    "ai-swiss-quality-cta": "VIEW OUR CERTIFICATIONS",
+    "commitee-section-title": "Your health guided by <blanc>a scientific advisory board.</blanc>",
+    "understanding-section-title": "A new understanding <blanc>of your body.</blanc>",
+    "understanding-section-description": "Receive a personalised report enriched with intuitive visualisations and an exclusive Revoscan analysis, a clear synthesis of what your body reveals, helping you decide, anticipate, and take action.",
+    "understanding-section-cta": "MORE DETAILS"
+  },
+  "VisionPage": {
+    "title": "Toward a new <blanc>vision of health</blanc>",
+    "subtitle": "We are shaping the medicine of tomorrow without compromise, placing preventive care at the heart of an unprecedented luxury experience.",
+
+    "revoscan-title": "At <blanc>Revoscan</blanc>",
+    "revoscan-description": "Every decision is rooted in scientific rigour and deeply human attention. Our bold vision: to reinvent medical imaging through a holistic, ultra-precise approach firmly focused on the future of your health.",
+
+    "commitment-title": "Driven by a <blanc>commitment to excellence</blanc>",
+    "commitment-description": "We combine world-renowned clinical expertise, cutting-edge imaging technology, and an exceptional level of personalised care. We believe that early detection, combined with unrivalled diagnostic precision, is the key to effective prevention and informed medical decision-making.\n\nWith the support of AI-assisted analysis, we detect subtle signals before symptoms arise, allowing us to act early, reduce the risk of chronic illness, and build long-term health resilience.",
+
+    "advanced-imaging-description": "Our advanced imaging services provide a global, personalised assessment of your health status, empowering you to understand, anticipate, and take control of your medical journey.\n\nWe are redefining your relationship with your body, medicine, and time: to us, health is not merely the absence of disease, but a potential to be revealed and cultivated.",
+
+    "new-standard-description": "<blanc>Together</blanc>, we are establishing a new standard of well-being, a proactive approach to medicine in the service of your longevity.",
+
+    "cta-button": "OUR EXPERTISE"
+  },
+  "ProtocolePage": {
+    "title": "Let’s reinvent healthcare, <blanc>to elevate every moment.</blanc>",
+
+    "step1-title": "Appointment Booking",
+    "step1-description": "Book your Revoscan examination by phone or via our contact page form.",
+
+    "step2-title": "Health Questionnaire",
+    "step2-description": "Complete our confidential health questionnaire to tailor the scan to your medical profile.",
+
+    "step3-title": "Exam Preparation",
+    "step3-description": "We recommend fasting for 4 hours prior to the MRI and removing all metallic objects.",
+
+    "step4-title": "The Revoscan Examination",
+    "step4-description": "The MRI scan is non-invasive, painless, and performed in an open scanner designed for your comfort.",
+
+    "step5-title": "Multi-Specialist Analysis",
+    "step5-description": "Each scanned region is assessed by a radiologist specialising in that specific area.",
+
+    "step6-title": "Personalised Report",
+    "step6-description": "You will receive a comprehensive report within 7 to 10 days, including targeted medical recommendations.",
+
+    "analysis-title": "Revoscan Analysis",
+    "analysis-description": "A clear table grading each area of your body based on abnormalities detected by the MRI.",
+
+    "summary-title": "Personalised Summary",
+    "summary-description": "A health assessment validated by our medical board, reflecting the collective expertise of our specialists.",
+
+    "recommendations-title": "Medical Recommendations",
+    "recommendations-description": "Tailored advice on next steps: specialists to consult, further tests, or follow-up care.",
+
+    "details-title": "Detailed Explanations",
+    "details-description": "Each anomaly is illustrated and explained, with MRI images to help you better understand your results.",
+
+    "price-section-title": "Book your <blanc>Revoscan examination</blanc>",
+    "price-section-price-title": "Exam price",
+    "price-section-price": "CHF 4,500",
+    "price-section-duration-title": "Duration",
+    "price-section-duration": "50 minutes",
+    "price-section-call-to-action": "Book an appointment",
+
+    "faq-title": "Frequently Asked <blanc>Questions</blanc>",
+    "faq-tab-1-title": "Before the exam",
+    "faq-tab-2-title": "At the clinic",
+    "faq-tab-3-title": "During the exam",
+    "faq-tab-4-title": "After the exam"
+  },
+  "ContactPage": {
+    "title": "Need to <blanc>get in touch ?</blanc>"
+  },
+  "Navigation": {
+    "expertise": "EXPERTISE",
+    "vision": "VISION",
+    "protocol": "PROTOCOL",
+    "contact": "CONTACT",
+    "cta": "BOOK AN APPOINTMENT"
   }
 }

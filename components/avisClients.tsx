@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const AvisClients: React.FC = () => {
     return (
-        <>
+        <div className='w-full md:w-2/3 flex flex-col lg:grid lg:grid-cols-4 md:grid-rows-5 gap-12 px-8 xl:px-80 mx-auto'>
             <div
                 className="md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-3 rounded-xl border-2 border-white/10 bg-white/5 backdrop-blur-md px-6 py-12 text-white shadow-inner custom-glow z-1">
                 <div className="flex items-center mb-3">
@@ -69,7 +69,7 @@ const AvisClients: React.FC = () => {
                         Un niveau de service inégalé, un professionnalisme et une hospitalité à son meilleur.
                     </p>
                 </div>
-        </>
+        </div>
 )
 }
 

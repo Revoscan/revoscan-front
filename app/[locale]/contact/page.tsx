@@ -3,21 +3,27 @@ import React from "react";
 import Image from "next/image";
 import Input from "@/components/input";
 import PhoneInput from 'react-phone-input-2'
-import "react-phone-input-2/lib/style.css";
+import "../../../styles/react-phone-input.css";
 import {Button} from "@/components/button";
+import {useTranslations} from "next-intl";
 
 export default function ExpertisePage() {
+    const t = useTranslations('ContactPage');
     const [phoneNumber, setPhoneNumber] = React.useState<string | undefined>(undefined);
 
     return (
         <>
-            <div className='flex flex-col items-center justify-center min-h-[50vh] px-8'>
-                <h1 className="text-4xl font-bold mb-16 z-1 text-center">Besoin de nous contacter ?</h1>
+            <div className='flex flex-col items-center justify-center min-h-[50vh] px-8 bg-black'>
+                <h1 className="text-center inline text-[2.3rem] lg:text-5xl z-1 text-[#BABABA] leading-[110%] tracking-normal">
+                    {t.rich('title', {
+                        blanc: (chunks) => <span className='text-white'>{chunks}</span>
+                    })}
+                </h1>
             </div>
-        <section className="flex flex-col items-center justify-center bg-[#100a18] text-white mb-8">
-            <ul className='flex flex-col justify-center items-center md:flex-row gap-8 md:gap-12 mb-8 z-1'>
-                <li className='flex gap-4 items-center'>
-                    <Image aria-hidden={true} width={20} height={20} src="/picto-contact-01.svg" alt=""/>
+            <section className="flex flex-col items-center justify-center bg-black text-white pb-32 mask-b-from-90% mask-to-transparent">
+                <ul className='flex flex-col justify-center items-center md:flex-row gap-8 md:gap-12 mb-8 z-1'>
+                    <li className='flex gap-4 items-center'>
+                        <Image aria-hidden={true} width={20} height={20} src="/picto-contact-01.svg" alt=""/>
                     Rue Jean-Violette 3, 1405, Genève
                 </li>
                 <li className='flex gap-2 items-center'>
@@ -51,12 +57,12 @@ export default function ExpertisePage() {
                             containerStyle={{
                                 borderRadius: '9999px',
                                 boxShadow: 'inset 0 0 4px rgba(255,255,255,0.6)',
-                                padding: '.5rem',
+                                padding: '.7rem',
                                 marginTop: '.5rem'
                             }}
                             dropdownStyle={{color: '#100a18'}}
-                            inputStyle={{background: '#100a18', color: 'white', border: 'none'}}
-                            buttonStyle={{background: 'transparent', color: 'white', border: 'none'}}
+                            inputStyle={{background: 'transparent', color: 'white', border: 'none', width: '90%'}}
+                            buttonStyle={{backgroundColor: 'transparent', color: 'white', border: 'none'}}
                         />
                     </label>
                 </div>

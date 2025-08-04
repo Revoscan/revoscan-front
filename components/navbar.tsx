@@ -13,17 +13,36 @@ import { link as linkStyles } from "@heroui/theme";
 import NextLink from "next/link";
 import clsx from "clsx";
 
-import { siteConfig } from "@/config/site";
 import {
   Logo,
 } from "@/components/icons";
 import {ButtonLink} from "@/components/buttonLink";
 import LocaleSwitcherSelect from "@/components/LocaleSwitcherSelect";
 import {locales} from "@/i18n/config";
-import {getUserLocale} from "@/services/locale";
+import {useTranslations} from "next-intl";
 
 export default function Navbar() {
-    // const pouet = await getUserLocale()
+    const t = useTranslations('Navigation');
+
+    const navItems = [
+        {
+            label: t('expertise'),
+            href: "/expertise",
+        },
+        {
+            label: t('vision'),
+            href: "/vision",
+        },
+        {
+            label: t('protocol'),
+            href: "/protocole",
+        },
+        {
+            label: t('contact'),
+            href: "/contact",
+        },
+    ]
+
     return (
         <HeroUINavbar maxWidth="full" position="sticky" className="transparent py-4 z-50">
           <NavbarContent className="basis-1/5 sm:basis-full my-4 ml-16" justify="start">
@@ -35,11 +54,11 @@ export default function Navbar() {
           </NavbarContent>
 
             <NavbarContent
-                className="hidden sm:flex basis-1/5 self-end gap-4 items-center justify-center"
+                className="hidden lg:flex basis-1/5 self-end gap-4 items-center justify-center"
                 justify='center'
             >
                 <ul className="hidden lg:flex gap-16 justify-start">
-                    {siteConfig.navItems.map((item) => (
+                    {navItems.map((item) => (
                         <NavbarItem key={item.href}>
                             <NextLink
                                 className={clsx(
@@ -57,28 +76,28 @@ export default function Navbar() {
             </NavbarContent>
 
             <NavbarContent
-                className="hidden sm:flex basis-1/5 self-end gap-4 items-center justify-center"
+                className="hidden lg:flex basis-1/5 self-end gap-4 items-center justify-center"
                 justify='end'
             >
-                <ButtonLink variant='black' href='/#book-a-scan' className='ml-4 text-sm'>PRENDRE RENDEZ-VOUS</ButtonLink>
+                <ButtonLink variant='black' href='/#book-a-scan' className='ml-4 text-sm'>{t('cta')}</ButtonLink>
 
                 <LocaleSwitcherSelect defaultValue={'en'} items={locales} label='' />
             </NavbarContent>
 
-            <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
+            <NavbarContent className="lg:hidden basis-1 pl-4" justify="end">
                 <NavbarMenuToggle/>
             </NavbarContent>
 
             <NavbarMenu>
                 <div className="mx-4 mt-16 flex flex-col items-center gap-8">
-                    {siteConfig.navMenuItems.map((item, index) => (
+                    {navItems.map((item, index) => (
                         <NavbarMenuItem key={`${item}-${index}`}>
                             <Link color="foreground" href={item.href} size="lg">
                                 {item.label}
                             </Link>
                         </NavbarMenuItem>
                     ))}
-                    <ButtonLink variant='transparent' href='/#book-a-scan' className='text-sm uppercase'>Prendre rendez-vous</ButtonLink>
+                    <ButtonLink variant='transparent' href='/#book-a-scan' className='text-sm uppercase'>{t('cta')}</ButtonLink>
                     <LocaleSwitcherSelect defaultValue={'en'} items={locales} label='' />
                 </div>
             </NavbarMenu>

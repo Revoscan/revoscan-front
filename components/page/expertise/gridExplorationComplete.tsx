@@ -1,38 +1,40 @@
 'use client'
 import React from "react";
 import Image from "next/image";
+import {useTranslations} from "next-intl";
 
 export default function GridExplorationComplete() {
+    const t = useTranslations('ExpertisePage');
     const explorationsLigne1 = [
-        { id: 1, title: 'Cerveau', description: 'Détection des tumeurs, AVC, anévrismes, kystes, hématomes et ischémies des petits vaisseaux.', icon: '/cerveau.svg', style: '' },
-        { id: 2, title: 'Cervico–faciale', description: 'Analyse des sinus, glandes, ganglions, langue, parotide, SCC et tumeurs du cou et du larynx.', icon: '/cervico-faciale.svg' },
-        { id: 3, title: 'Moelle osseuse', description: 'Détection d’anomalies, tumeurs, métastases et affections hématologiques médullaires.', icon: '/moelle-osseuse.svg' },
-        { id: 4, title: 'Rachis', description: 'Visualisation des hernies discales, dégénérescence, lésions vertébrales et spinale.', icon: '/rachis.svg' },
+        { id: 1, title: t('whole-body-brain-title'), description: t('whole-body-brain-description'), icon: '/cerveau.svg', style: '' },
+        { id: 2, title: t('whole-body-head-neck-title'), description: t('whole-body-head-neck-description'), icon: '/cervico-faciale.svg' },
+        { id: 3, title: t('whole-body-bone-marrow-title'), description: t('whole-body-bone-marrow-description'), icon: '/moelle-osseuse.svg' },
+        { id: 4, title: t('whole-body-spine-title'), description: t('whole-body-spine-description'), icon: '/rachis.svg' },
     ]
 
     const explorationsLigne2 = [
-        { id: 5, title: 'Cardio Vasculaire', description: 'Évaluation de l’aorte, détection d’anévrismes et anomalies vasculaires cérébrales.', icon: '/cardio-vasculaire.svg' },
-        { id: 6, title: 'Poumons', description: 'Visualisation des masses pulmonaires et tumeurs médiastinales de plus de 1,5 cm.', icon: '/poumons.svg' },
-        { id: 7, title: 'Reins', description: 'Analyse des reins pour kystes, tumeurs, masses solides et anomalies structurelles.', icon: '/reins.svg' },
+        { id: 5, title: t('whole-body-cardiovascular-title'), description: t('whole-body-cardiovascular-description'), icon: '/cardio-vasculaire.svg' },
+        { id: 6, title: t('whole-body-lungs-title'), description: t('whole-body-lungs-description'), icon: '/poumons.svg' },
+        { id: 7, title: t('whole-body-kidneys-title'), description: t('whole-body-kidneys-description'), icon: '/reins.svg' },
     ]
 
     const explorationsLigne3 = [
-        { id: 8, title: 'Système Urinaire', description: 'Détection des tumeurs, kystes, malformations et anomalies urinaires ou vésicales.', icon: '/systeme-urinaire.svg' },
-        { id: 9, title: 'Pelvis & Seins', description: 'Dépistage de masses suspectes, kystes, lésions bénignes ou malignes visibles à l’IRM.', icon: '/pelvis-seins.svg' },
-        { id: 10, title: 'Prostate', description: 'Analyse ciblée de la prostate pour détecter les tumeurs, même de petite taille.', icon: '/prostate.svg' },
+        { id: 8, title: t('whole-body-urinary-title'), description: t('whole-body-urinary-description'), icon: '/systeme-urinaire.svg' },
+        { id: 9, title: t('whole-body-pelvis-breasts-title'), description: t('whole-body-pelvis-breasts-description'), icon: '/pelvis-seins.svg' },
+        { id: 10, title: t('whole-body-prostate-title'), description: t('whole-body-prostate-description'), icon: '/prostate.svg' },
     ]
 
     const explorationsLigne4 = [
-        { id: 11, title: 'Membres', description: 'Visualisation de masses, anomalies osseuses, tumeurs et pathologies musculo-squelettiques.', icon: '/membres.svg' },
-        { id: 12, title: 'Muscles', description: 'Détection des lésions, tumeurs, anomalies musculaires ou infiltrations diffuses.', icon: '/muscles.svg' },
-        { id: 13, title: 'Métabolisme', description: 'Analyse de la stéatose hépatique, surcharge en fer (Hémochromatose) et anomalies diffuses.', icon: '/metabolisme.svg' },
+        { id: 11, title: t('whole-body-limbs-title'), description: t('whole-body-limbs-description'), icon: '/membres.svg' },
+        { id: 12, title: t('whole-body-muscles-title'), description: t('whole-body-muscles-description'), icon: '/muscles.svg' },
+        { id: 13, title: t('whole-body-metabolism-title'), description: t('whole-body-metabolism-description'), icon: '/metabolisme.svg' },
     ]
 
     return (
         <section className="py-12 px-6 md:px-16 relative">
             <div className="max-w-7xl mx-auto">
                 <h2 className="text-center text-2xl md:text-4xl mb-10 z-1">
-                    Une exploration complète du corps.
+                    {t('whole-body-section-title')}
                 </h2>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import Image from "next/image";
+import {useTranslations} from "next-intl";
 
 interface Membre {
     id: number;
@@ -73,6 +74,7 @@ const membres: Membre[] = [
 ];
 
 export default function ComiteScientifique() {
+    const t = useTranslations('ExpertisePage');
     const [membreActif, setMembreActif] = useState<Membre>(membres[0]);
 
     return (
@@ -82,8 +84,9 @@ export default function ComiteScientifique() {
                     {/* Titre */}
                     <div className="md:col-span-3 mb-8">
                         <h2 className="text-2xl md:text-4xl leading-[105%] text-[#BABABA] tracking-normal z-1 md:mb-24">
-                            Votre santé guidée <br/>
-                            <span className="text-white">par un comité scientifique.</span>
+                            {t.rich('commitee-section-title', {
+                                blanc: (chunks) => <><br/><span className='text-white'>{chunks}</span></>
+                            })}
                         </h2>
                     </div>
 

@@ -1,7 +1,7 @@
 import Input from "@/components/input";
 import Select from "@/components/select";
 import PhoneInput from "react-phone-input-2";
-import "react-phone-input-2/lib/style.css";
+import '../../../styles/react-phone-input.css'
 import {Button} from "@/components/button";
 import React from "react";
 
@@ -23,7 +23,7 @@ export default function InscriptionForm() {
             <div className='flex flex-col md:flex-row gap-4 mt-4 w-full z-1'>
                 <Input label='Votre email' placeholder='ex: example@gmail.com' type='email' required={true}/>
 
-                <label className="w-full flex flex-col gap-2 mt-4 z-1">
+                <label className="w-full md:w1/2 flex flex-col gap-2 mt-4 z-2">
                     <span>Votre téléphone{' '}<span className="text-red-500 inline">*</span></span>
                     <PhoneInput
                         country={'fr'}
@@ -35,12 +35,13 @@ export default function InscriptionForm() {
                         containerStyle={{
                             borderRadius: '9999px',
                             boxShadow: 'inset 0 0 4px rgba(255,255,255,0.6)',
-                            padding: '.5rem',
-                            marginTop: '.5rem'
+                            padding: '.7rem',
+                            marginTop: '.5rem',
+                            zIndex: 2
                         }}
-                        dropdownStyle={{color: '#100a18'}}
-                        inputStyle={{background: '#100a18', color: 'white', border: 'none'}}
-                        buttonStyle={{background: 'transparent', color: 'white', border: 'none'}}
+                        dropdownStyle={{color: '#100a18', zIndex: 2}}
+                        inputStyle={{background: '#100a18', color: 'white', border: 'none', zIndex: 2, width: '90%'}}
+                        buttonStyle={{background: 'transparent', color: 'white', border: 'none', zIndex: 2}}
                     />
                 </label>
             </div>
